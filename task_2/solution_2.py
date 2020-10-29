@@ -9,4 +9,6 @@ for i in range(0,a):
       if l>m:
         m=l
         most_frequent_character = user_input[i]
+  l=0
+  j=0
 print(most_frequent_character)
