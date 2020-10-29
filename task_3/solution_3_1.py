@@ -1,4 +1,7 @@
-# your code here
+alphabet = ""
 user_input = input()
-# your code here
+for i in user_input:
+  if i not in alphabet:
+    alphabet = (alphabet + i)
 print(alphabet)
+
